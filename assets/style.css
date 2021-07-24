@@ -1,0 +1,10 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("ishan-seefromthesky-eWSh-bkaKU8-unsplash.jpg") ;
+    color: white;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+.container {
+  float:left;
+}
