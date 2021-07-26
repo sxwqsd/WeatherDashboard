@@ -5,6 +5,19 @@
     border-radius: 0;
     border-bottom: 10px solid black;
   }
-.container {
-  float:left;
+
+.btn {
+  border: 1px solid blue;
+  border-radius: 2px;
+  
 }
+
+.col-sm-5{
+  border: 4px solid black;
+}
+
+.col-sm-2{
+  border: 4px solid black;
+  background-color: lightcyan;
+}
+

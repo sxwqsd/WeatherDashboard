@@ -18,13 +18,66 @@
 
     </header>
     <div class="container">
-        <h2>Seach for a City</h2>
-        <input type="text" id="searchTerm" value="Tucson" />
-        <button id="searchbtn" class="btn">Search</button>
+        <div class="row">
+            <div class="col-sm-5">
+                <h2>Seach for a City</h2>
+                <input type="text" id="searchTerm" value="" />
+                <button id="searchBtn" class="btn">Search</button>
+            </div>
+            <div class="col-sm-5">
+                <h2 id="currentCity" id="currentCity"></h2>
+                <p>Temperature: <span id="temperature"></span>°F</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed"></span>MPH</p>
+            </div>
+        </div>
     </div>
-    <div id='response-container'>
-        
+
+    <div class='container'>
+        <div class="row" id="forcast">
+            <h3>5-Day Forecast</h3>
+        </div>
+        <div class="row" id="forcast">
+            <div class="col-sm-2">
+                <h2><span id="date1"></span></h2>
+                <p>Temperature: <span id="temperature1"></span>°F</p>
+                <p>Humidity: <span id="humidity1"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed1"></span>MPH</p>
+            </div>
+            <div class="col-sm-2">
+                <h2><span id="date2"></span></h2>
+                <p>Temperature: <span id="temperature2"></span>°F</p>
+                <p>Humidity: <span id="humidity2"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed2"></span>MPH</p>
+            </div>
+            <div class="col-sm-2">
+                <h2><span id="date3"></span></h2>
+                <p>Temperature: <span id="temperature3"></span>°F</p>
+                <p>Humidity: <span id="humidity3"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed3"></span>MPH</p>
+            </div>
+            <div class="col-sm-2">
+                <h2><span id="date4"></span></h2>
+                <p>Temperature: <span id="temperature4"></span>°F</p>
+                <p>Humidity: <span id="humidity4"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed4"></span>MPH</p>
+            </div>
+            <div class="col-sm-2">
+                <h2><span id="date5"></span></h2>
+                <p>Temperature: <span id="temperature5"></span>°F</p>
+                <p>Humidity: <span id="humidity5"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed5"></span>MPH</p>
+            </div>
+
+
+        </div>
+
+
+
     </div>
+    </div>
+
+
 
 
 
